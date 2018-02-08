@@ -1,10 +1,11 @@
-# IntelliJ IDEA
-.idea
-*.iml
-
-# Gradle
-.gradle
-build/
-
 # General
 out/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
